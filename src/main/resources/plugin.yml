@@ -1,24 +1,13 @@
-name: SubstitueUser
+name: SubstituteUser
 version: "0.1"
 api-version: "1.13"
-description: "SubstitueUser"
-
+description: "Do something as somebody else"
 author: Teddy
-authors: []
 website: https://twieteddy.github.io
-
-main: io.github.twieteddy.substituteuser.SubstitueUser
+main: io.github.twieteddy.substituteuser.SubstituteUser
 database: false
-depend: []
-softdepend: []
-
-permissions:
-  substituteuser.su:
-    default: op
-  substitueuser.su.skippermissioncheck:
-    default: false
 
 commands:
   su:
     description: Execute something as somebody else
-    permission: substituteuser.su
+    Usage: /su <onlinePlayer> <command>
